@@ -199,7 +199,6 @@ void Flocking(){
         // if(boids[i][3] > maxVel)
         //     boids[i][3] = maxVel;
     }
-    cout << newBoids.size() << endl;
     for(int i = 0; i < boids.size(); i++){
         boids[i][2] = newBoids[i * 2];
         boids[i][3] = newBoids[i * 2 + 1];
