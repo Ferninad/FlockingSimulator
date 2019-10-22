@@ -356,17 +356,17 @@ void Draw(){
             yp1 = 0;
         if(ang > 22.5 && ang <= 67.5){
             DrawBoid(xp1, yp1);
-            DrawBoid(xm1, y);            
+            DrawBoid(xm1, y);
             DrawBoid(x, ym1);
         }
         else if(ang > 67.5 && ang <= 112.5){
             DrawBoid(x, yp1);
-            DrawBoid(xm1, ym1);            
+            DrawBoid(xm1, ym1);
             DrawBoid(xp1, ym1);
         }
         else if(ang > 112.5 && ang <= 157.5){
             DrawBoid(xm1, yp1);
-            DrawBoid(x, ym1);            
+            DrawBoid(x, ym1);
             DrawBoid(xp1, y);
         }
         else if(ang > 157.5 && ang <= 202.5){
@@ -376,22 +376,22 @@ void Draw(){
         }
         else if(ang > 202.5 && ang <= 247.5){
             DrawBoid(xm1, ym1);
-            DrawBoid(xp1, y);            
+            DrawBoid(xp1, y);
             DrawBoid(x, yp1);
         }
         else if(ang > 247.5 && ang <= 292.5){
             DrawBoid(x, ym1);
-            DrawBoid(xp1, yp1);            
+            DrawBoid(xp1, yp1);
             DrawBoid(xm1, yp1);
         }
         else if(ang > 292.5 && ang <= 337.5){
             DrawBoid(xp1, ym1);
-            DrawBoid(x, yp1);            
+            DrawBoid(x, yp1);
             DrawBoid(xm1, y);
         }
         else{
             DrawBoid(xp1, y);
-            DrawBoid(xm1, yp1);            
+            DrawBoid(xm1, yp1);
             DrawBoid(xm1, ym1);
         }
     }
